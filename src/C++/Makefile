@@ -1,0 +1,2 @@
+iPaur: iPaur.cpp
+	clang++ -O3 -ftree-vectorize -funroll-loops -fomit-frame-pointer -ffast-math -Wall -lopencv_core -lopencv_highgui -lopencv_video -lopencv_imgproc -L/opt/local/lib -I/opt/local/include -o iPaur iPaur.cpp
